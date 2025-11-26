@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
+import Solutions from './components/Solutions';
 import Footer from './components/Footer';
 import { LanguageProvider } from './lib/i18n';
 
@@ -14,6 +15,7 @@ function App() {
           <Hero />
           <Features />
           <HowItWorks />
+          <Solutions />
         </main>
         <Footer />
       </div>

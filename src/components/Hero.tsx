@@ -72,7 +72,7 @@ export default function Hero() {
           <span className="italic text-brand-400">{t.hero.headlineSuffix}</span>
         </h1>
 
-        <p className="text-lg text-gray-400 mb-12 leading-relaxed max-w-2xl mx-auto">
+        <p className="text-lg text-gray-500 mb-12 leading-relaxed max-w-2xl mx-auto">
           {t.hero.subheadline}
         </p>
 

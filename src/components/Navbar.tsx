@@ -15,24 +15,24 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0f0c29]/50 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <img src="https://static.lumi.new/97/97938258466c9a838890a793f63c66cb.webp" alt="ailinkxin Logo" className="w-8 h-8 object-contain" />
-          <span className="text-xl font-bold tracking-tight">ailinkxin</span>
+          <span className="text-xl font-bold tracking-tight">Ailinkxin</span>
         </div>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-sm text-gray-300 hover:text-white transition-colors">{t.navbar.features}</a>
-          <a href="#how-it-works" className="text-sm text-gray-300 hover:text-white transition-colors">{t.navbar.howItWorks}</a>
-          <a href="#pricing" className="text-sm text-gray-300 hover:text-white transition-colors">{t.navbar.pricing}</a>
+          <a href="#features" className="text-sm font-medium text-white/80 hover:text-white transition-colors">{t.navbar.features}</a>
+          <a href="#how-it-works" className="text-sm font-medium text-white/80 hover:text-white transition-colors">{t.navbar.howItWorks}</a>
+          <a href="#solutions" className="text-sm font-medium text-white/80 hover:text-white transition-colors">Solutions</a>
+          <a href="#pricing" className="text-sm font-medium text-white/80 hover:text-white transition-colors">{t.navbar.pricing}</a>
           
           <button 
             onClick={toggleLanguage}
-            className="flex items-center gap-1 text-sm text-gray-300 hover:text-white transition-colors"
+            className="flex items-center gap-1 text-sm font-medium text-white/80 hover:text-white transition-colors"
           >
             <Globe className="w-4 h-4" />
             <span>{language === 'en' ? '中文' : 'English'}</span>
           </button>
 
-          <a href="#" className="text-sm text-gray-300 hover:text-white transition-colors">{t.navbar.login}</a>
+          <a href="#" className="text-sm font-medium text-white/80 hover:text-white transition-colors">{t.navbar.login}</a>
           <motion.button 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -63,6 +63,7 @@ export default function Navbar() {
         >
           <a href="#features" className="text-gray-300">{t.navbar.features}</a>
           <a href="#how-it-works" className="text-gray-300">{t.navbar.howItWorks}</a>
+          <a href="#solutions" className="text-gray-300">Solutions</a>
           <a href="#pricing" className="text-gray-300">{t.navbar.pricing}</a>
           <hr className="border-white/10" />
           <a href="#" className="text-gray-300">{t.navbar.login}</a>

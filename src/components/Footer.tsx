@@ -9,8 +9,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-2">
             <div className="flex items-center gap-2 mb-6">
-              <img src="https://static.lumi.new/97/97938258466c9a838890a793f63c66cb.webp" alt="ailinkxin Logo" className="w-6 h-6 object-contain" />
-              <span className="text-lg font-bold">ailinkxin</span>
+              <span className="text-lg font-bold">Ailinkxin</span>
             </div>
             <p className="text-gray-500 max-w-sm">
               {t.footer.description}
@@ -37,8 +36,7 @@ export default function Footer() {
         </div>
         
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-600">
-          <p>© 2024 ailinkxin. All rights reserved.</p>
-          <p>Made with ❤️ by Lumi</p>
+          <p>© 2025 Ailinkxin. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -42,7 +42,7 @@ export default function Features() {
     <section id="features" className="py-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 font-serif">{t.features.headingPrefix}<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-purple-400">{t.features.headingSuffix}</span></h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 font-serif whitespace-nowrap">{t.features.headingPrefix}<span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-purple-400">{t.features.headingSuffix}</span></h2>
           <p className="text-gray-400 text-lg">
             {t.features.subheading}
           </p>

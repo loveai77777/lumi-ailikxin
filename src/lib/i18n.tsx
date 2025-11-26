@@ -64,32 +64,32 @@ const translations: Record<Language, Translations> = {
     hero: {
       headlinePrefix: "What do you need ",
       headlineSuffix: "your assistant to do?",
-      subheadline: "Build an assistant to handle repetitive tasks — Email, Auto-posting, Marketing, CRM",
+      subheadline: "Build an AI assistant that actually helps you run your business.",
       placeholder: "Tell us what you need..."
     },
     features: {
-      headingPrefix: "Not just chat, ",
-      headingSuffix: "but real action.",
-      subheading: "Most AIs just give advice. Pine AI solves problems for you.",
+      headingPrefix: "Not just answers, ",
+      headingSuffix: "real business results.",
+      subheading: "Most AIs just chat. AILINKXIN assistant captures leads, closes deals and keeps customers coming back.",
       items: {
-        call: { title: "Call Service", desc: "We call customer service, wait on hold, and solve problems for you." },
-        negotiate: { title: "Bill Negotiation", desc: "Think your bill is too high? Pine AI negotiates with providers for lower rates." },
-        email: { title: "Email Handling", desc: "Draft, reply, and follow up on important service emails automatically." },
-        subscription: { title: "Subscription Mgmt", desc: "Scan and cancel unused subscriptions in one click." },
-        privacy: { title: "Privacy Protection", desc: "Bank-level encryption keeps your data safe." },
-        alwaysOn: { title: "24/7 Service", desc: "Anytime, anywhere, just one command and Pine AI gets to work." }
+        call: { title: "Lead Capture", desc: "Collect names, contact info and needs from chat, forms and landing pages automatically." },
+        negotiate: { title: "Booking & Reminders", desc: "Let your assistant handle bookings, confirmations and \"don't forget\" reminders." },
+        email: { title: "Smart FAQ & Support", desc: "Answer repeat questions instantly, free your time from copy-paste replies." },
+        subscription: { title: "Sales Follow-up", desc: "Nurture warm leads with sequences, upsell existing customers, and reduce no-shows." },
+        privacy: { title: "Internal Automations", desc: "Trigger workflows in tools like email, calendar, CRM or spreadsheets with one message." },
+        alwaysOn: { title: "24/7 Availability", desc: "Your assistant never sleeps, never forgets, and always follows your rules." }
       }
     },
     howItWorks: {
       heading: "How it works",
       steps: [
-        { title: "Tell Pine what you need", desc: "Like: 'Cancel my Netflix subscription' or 'Ask for a lower internet bill'." },
-        { title: "Pine gets to work", desc: "Pine logs in, makes calls, or sends emails. You don't lift a finger." },
-        { title: "Task complete", desc: "Pine notifies you when done. Check progress anytime." }
+        { title: "Tell us about your business", desc: "In a quick chat or form, share what you sell, how you get customers and where you feel stuck." },
+        { title: "We design your AI assistant & flows", desc: "We plan the conversations, forms and automations that fit your business and tools." },
+        { title: "Launch, test and improve together", desc: "We launch your assistant, track results, and keep refining messages and flows over time." }
       ]
     },
     footer: {
-      description: "ailinkxin is your intelligent life assistant. We automate tedious daily tasks so you can focus on what matters.",
+      description: "Ailinkxin is your intelligent life assistant. We automate tedious daily tasks so you can focus on what matters.",
       product: "Product",
       company: "Company",
       links: {
@@ -138,7 +138,7 @@ const translations: Record<Language, Translations> = {
       ]
     },
     footer: {
-      description: "ailinkxin 是您的智能生活助手。我们将繁琐的日常任务自动化，让您专注于真正重要的事情。",
+      description: "Ailinkxin 是您的智能生活助手。我们将繁琐的日常任务自动化，让您专注于真正重要的事情。",
       product: "产品",
       company: "公司",
       links: {
